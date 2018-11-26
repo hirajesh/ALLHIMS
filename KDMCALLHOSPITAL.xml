@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.all.kdmc.HospitalHealthpostDispensaryAndAdmin"/>
+      <class name="com.all.kdmc.DoctorSRS"/>
+      <class name="com.all.kdmc.EmployeeSRS"/>
+      <class name="com.all.kdmc.DMSTOCMSSRS"/>
+      <class name="com.all.kdmc.PharmacyrequestSRS"/>    
+      <class name="com.all.kdmc.LabrequestSRS"/>
+      <class name="com.all.kdmc.EmergencySRS"/>
+      <class name="com.all.kdmc.InpatientrequestSRS"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.all.kdmc.EmergencySRS">
+        <methods>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- com.all.kdmc.EmergencySRS -->
+      <class name="com.all.kdmc.LabrequestSRS">
+        <methods>
+          <include name="screen"/>
+          <include name="nn"/>
+        </methods>
+      </class> <!-- com.all.kdmc.LabrequestSRS -->
+      <class name="com.all.kdmc.PharmacyrequestSRS">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- com.all.kdmc.PharmacyrequestSRS -->
+      <class name="com.all.kdmc.InpatientrequestSRS">
+        <methods>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- com.all.kdmc.InpatientrequestSRS -->
+      <class name="com.all.kdmc.DoctorSRS">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.all.kdmc.DoctorSRS -->
+      <class name="com.all.kdmc.HospitalHealthpostDispensaryAndAdmin">
+        <methods>
+          <include name="screen"/>
+        </methods>
+      </class> <!-- com.all.kdmc.HospitalHealthpostDispensaryAndAdmin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

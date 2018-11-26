@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152866" started-at="2018-10-29T12:26:37Z" finished-at="2018-10-29T12:29:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="152866" started-at="2018-10-29T12:26:37Z" finished-at="2018-10-29T12:29:10Z">
+      <class name="com.all.kdmc.HospitalHealthpostDispensaryAndAdmin">
+        <test-method status="PASS" signature="HOSHELDIS_REG()[pri:0, instance:com.all.kdmc.HospitalHealthpostDispensaryAndAdmin@55f3ddb1]" name="HOSHELDIS_REG" duration-ms="152851" started-at="2018-10-29T17:56:37Z" finished-at="2018-10-29T17:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HOSHELDIS_REG -->
+        <test-method status="PASS" signature="screen(org.testng.ITestResult)[pri:0, instance:com.all.kdmc.HospitalHealthpostDispensaryAndAdmin@55f3ddb1]" name="screen" is-config="true" duration-ms="2" started-at="2018-10-29T17:59:10Z" finished-at="2018-10-29T17:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HOSHELDIS_REG status=SUCCESS method=HospitalHealthpostDispensaryAndAdmin.HOSHELDIS_REG()[pri:0, instance:com.all.kdmc.HospitalHealthpostDispensaryAndAdmin@55f3ddb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- com.all.kdmc.HospitalHealthpostDispensaryAndAdmin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
